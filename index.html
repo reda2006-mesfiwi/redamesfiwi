@@ -1,14 +1,108 @@
 <!DOCTYPE html>
-<html></html>
-<head></head>
-<title>sharkfamily</title>
-<head></head>
-<body></body>
-<h1>رضى عاشق اولمييك اسفي</h1>
-<h2>موقع للمسفيويين فقط</
-h2>
-<p>تابعني على استغرامك: <a
-herf=https://instgram.com/3isma-for-ever"
-target="_blank">@3isma-for-ever</a></p>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة بتصميم جذاب</title>
+    <style>
+        /* ضع الكود CSS هنا */
+        body {
+            font-family: 'Arial', sans-serif;
+            direction: rtl;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #4A90E2, #2C3E50);
+            color: #fff;
+            height: 100vh;
+        }
+
+        .title-container {
+            margin-top: 50px;
+        }
+
+        .title {
+            font-size: 40px;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            margin-bottom: 50px;
+        }
+
+        .buttons-container {
+            margin-top: 50px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        button:hover {
+            background-color: #2980b9;
+            transform: translateY(-5px);
+        }
+
+        button:active {
+            background-color: #1f6f8b;
+        }
+
+        .message-container {
+            margin-top: 30px;
+            font-size: 22px;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            display: none;
+            background-color: rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .message-container.visible {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="title-container">
+        <div class="title"reda mesfiwi!</div>
+    </div>
+
+    <div class="buttons-container">
+        <button id="showMessageBtn">safi</button>
+        <button id="hideMessageBtn">إshark family</button>
+    </div>
+
+    <div class="message-container" id="messageContainer">
+        احسن مدينة في عالم!
+    </div>
+
+    <script>
+        // JavaScript حب فريق
+        const showMessageBtn = document.getElementById('showMessageBtn');
+        const hideMessageBtn = document.getElementById('hideMessageBtn');
+        const messageContainer = document.getElementById('messageContainer');
+
+        showMessageBtn.addEventListener('click', () => {
+            messageContainer.classList.add('visible');
+        });
+
+        hideMessageBtn.addEventListener('click', () => {
+            messageContainer.classList.remove('visible');
+        });
+    </script>
+
 </body>
 </html>
