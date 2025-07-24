@@ -82,10 +82,12 @@
 
     <div class="buttons-container">
         <button id="showMessageBtn">safi</button>
-        <button id="hideMessageBtn">إshark family</button>
+        <button id="showgreetingbtn">إshark family</button>
+        <button
+        id="hidegreetingbtn">اخفاء</button>
     </div>
 
-    <div class="message-container" id="messageContainer">
+    <div class="messagecontainer" id="messageContainer"
         احسن مدينة في عالم!
     </div>
 
@@ -103,7 +105,7 @@
             messageContainer.classList.remove('visible');
         });
     </script>
-<footer style="text-align:centr;padding: 10px;background-color:#eee;margin-top: 30px;">
+<footer style="text-align:center;padding: 10px;background-color:red;margin-top: 30px;">
     تم انشاء الموقع بواسطة رضى الخمري
     <a
 herf="http://instgram.com/3isma-for-ever"
@@ -111,6 +113,18 @@ target="_blank">
     <strong>reda mesfiwi</strong>
     </a>
    -عاشق اولمبيك اسفي💗💙
+    <div style="text-align:center;margin-top: 30px;">
+    <button
+    id="showgreetingbtn">عرض التحية</button>
+    <button
+    id="hidegreetingbtn">اخفاء التحية</button>
+        <p id=="messageContainer" style="color:green;font-weitght:bold;"></p></div
 </footer>
+<script>
+document.getElementById("showgreetingbtn").onclick=function() {
+document.getElementById("messageContainer").innerText="تحية طيبة الى اخي في الله ياسين";};
+document.getElementById("hidegreetingbtn").onclick=function() {
+document.getElementById("messageContainer").innerText=""};
+</script>
 </body>
 </html>
